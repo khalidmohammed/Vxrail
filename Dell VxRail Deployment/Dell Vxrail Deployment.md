@@ -1,4 +1,4 @@
-# Dell VxRail - Dell VxRail deployment Steps
+# Dell VxRail Deployment Step
 Deploying a Dell VxRail system involves a series of steps that are designed to ensure a seamless integration of this hyper-converged infrastructure into your data center. 
 VxRail appliance offers a scalable and powerful platform that combines compute, storage, and networking into a single system, optimized for VMware environments
 
