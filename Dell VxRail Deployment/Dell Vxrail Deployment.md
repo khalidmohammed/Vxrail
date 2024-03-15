@@ -10,9 +10,10 @@ Join us for a comprehensive exploration of how to bridge the gap between these t
 
 The session will be conducted via Zoom Meeting Platform, I Strongly recommend to **install Zoom App** for the smooth experience.
 
-## Webinar Recordings
-- [Part 1](https://youtu.be/3q0DsU73KpI)
-- [Part 2](https://youtu.be/PB83udFEhFg)
+## Deployment Traning 
+- [Dell Switch Configuration for Vxrail](https://youtu.be/3q0DsU73KpI)
+- [Dell Vxrail Configartion with Jump port](https://youtu.be/PB83udFEhFg)
+- [Dell RASR-Format VxRail Node](https://youtu.be/PB83udFEhFg)
 
 ## Class Whiteboard Link
 The contents and drawings we discussed in the session will be available here.
