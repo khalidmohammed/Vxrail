@@ -3,7 +3,7 @@ Deploying a Dell VxRail system involves a series of steps that are designed to e
 VxRail appliance offers a scalable and powerful platform that combines compute, storage, and networking into a single system, optimized for VMware environments
 
 <p align="center" width="100%">
-  <img src="https://github.com/vpjaseem/collaboration/assets/67306692/0ab235b3-62ba-4c54-b1ff-8ff9bfbfd655">
+  <img src="https://github.com/khalidmohammed/Vxrail/blob/0eee4a272b3af882eec3185ccaa57ad266dbda32/Vxrail-Traning.jpg">
 </p>
 
 Join us for a comprehensive exploration of how to bridge the gap between these two industry leaders, enhancing your ability to connect, communicate, and collaborate with unparalleled efficiency. Our webinar will cover everything you need to know about bringing the power of Microsoft Teams into the Cisco Unified Communications environment, leveraging the robust capabilities of Cisco CUBE as the bridge.
