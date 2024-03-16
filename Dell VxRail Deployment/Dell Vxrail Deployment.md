@@ -19,6 +19,59 @@ The session will be conducted via Zoom Meeting Platform, I Strongly recommend to
 The contents and drawings we discussed in the session will be available here.
 - Whiteboard [Link](https://notability.com/n/2ENMinaEW4jAfuCk2Ig4vS)
 
+## Deployment Steps
+Brief overview of the deployment process for Dell VxRail with Dell TOR switches:
+
+### Pre-Deployment Planning
+1. **Assessment and Design:**
+   - Assess current infrastructure to ensure compatibility.
+   - Design the VxRail cluster to meet performance, capacity, and redundancy requirements.
+   - Plan network topology, including VLANs and subnetting for management, VM traffic, vSAN, and vMotion.
+
+2. **Site Preparation:**
+   - Ensure proper physical space, power, and cooling in the data center.
+   - Prepare rack space for VxRail nodes and Dell TOR switches.
+
+3. **Network Preparation:**
+   - Configure Dell TOR switches with the necessary VLANs, spanning tree protocol settings, and MTU sizes to support VxRail.
+   - Ensure upstream connectivity for external access.
+
+### Deployment Steps
+1. **Rack and Connect:**
+   - Physically install VxRail nodes and Dell TOR switches in the rack.
+   - Connect VxRail nodes to the Dell TOR switches using appropriate cabling for management, vSAN, VM traffic, and vMotion.
+
+2. **Initialize VxRail Node:**
+   - Power on the VxRail nodes.
+   - Use the VxRail Manager to begin the initialization process, inputting network and cluster configuration details.
+
+3. **Deploy VxRail Cluster:**
+   - The VxRail Manager automates the deployment of the ESXi hosts, vSAN configuration, and VMware vCenter integration.
+   - Configure vSAN disk groups and datastores.
+
+4. **Network Configuration:**
+   - Configure VMware Distributed Switch (vDS) or Standard Switch (vSS) for network traffic segregation.
+   - Integrate with Dell TOR switches to ensure all VLANs are correctly passed and MTU sizes are consistent.
+
+5. **Post-Deployment Configuration:**
+   - Set up VMware HA (High Availability) and DRS (Distributed Resource Scheduler) for cluster resilience and resource optimization.
+   - Implement backup and disaster recovery solutions as necessary.
+
+6. **Testing and Validation:**
+   - Conduct performance testing to ensure the cluster meets expected metrics.
+   - Validate redundancy and failover by simulating failures.
+
+### Post-Deployment
+1. **Monitoring and Management:**
+   - Utilize VxRail Manager and VMware vCenter for ongoing monitoring and management of the VxRail cluster.
+   - Regularly update firmware and software to maintain security and performance.
+
+2. **Scale and Optimize:**
+   - Scale out the VxRail cluster by adding more nodes as needed.
+   - Optimize resource allocation based on workload demands.
+
+Deploying Dell VxRail with Dell TOR switches requires careful planning and execution but results in a powerful, scalable, and efficient infrastructure that can significantly enhance data center operations.
+
 ## Prerequisites
 - Basic understanding of CUCM, IP Phone Registration, SIP Trunking
 - Knowledge of CUBE (Dial-Peers, SIP)
