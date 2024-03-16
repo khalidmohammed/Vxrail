@@ -62,24 +62,15 @@ Brief overview of the deployment process for Dell VxRail with Dell TOR switches:
    - Validate redundancy and failover by simulating failures.
 
 ### Post-Deployment
-1. **Monitoring and Management:**
+1. **VxRail administration:**
    - Utilize VxRail Manager and VMware vCenter for ongoing monitoring and management of the VxRail cluster.
    - Regularly update firmware and software to maintain security and performance.
 
-2. **Scale and Optimize:**
-   - Scale out the VxRail cluster by adding more nodes as needed.
-   - Optimize resource allocation based on workload demands.
-
-Deploying Dell VxRail with Dell TOR switches requires careful planning and execution but results in a powerful, scalable, and efficient infrastructure that can significantly enhance data center operations.
 
 ## Prerequisites
-- Basic understanding of CUCM, IP Phone Registration, SIP Trunking
-- Knowledge of CUBE (Dial-Peers, SIP)
-- Basic understanding of SSL Certificates and how to use them in Cisco Routers - [Reference](https://youtu.be/8pUtDOTw-HM)
-- Knowledge of Microsoft 365 Admin Center and MS Teams Admin Center
-- Basic understanding of Microsoft Direct Routing (Theoretical knowledge is enough)
-- Basic knowledge of Regular Expressions (RegEx) - [Regex Tool](https://regex101.com/)
-- Strongly recommend to install Zoom App for the smooth experience 
+- Knowledge of Switching and Routing
+- Knowledge of VmWare vsphere and understanding of Vsan, Vmotion
+- Basic understanding of Storage 
 
 ## Lab Topology
 ![image](https://github.com/vpjaseem/collaboration/assets/67306692/892429a8-2d08-499e-9606-c51f1876d8c7)
